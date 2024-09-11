@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bank application</title>
+</head>
+<body>
+    <body>
+        <header>
+            <CENTER><img src="https://1000logos.net/wp-content/uploads/2018/03/SBI-Logo-1970.png" width="20%" alt="SBI logo is here"></CENTER>
+            <h1>ATM / DEBIT CARD APPLICATION FORM</h1>
+        </header>
+        <section>
+            <form action="banksubmitted.html">
+            <p>Thank you for applying for the State Bank ATM / Debit Card. To help us process your request quickly please fill this form as per the instructions overleaf if you have any questions, please check with your Branch Official. We are committed to making your life simpler with the State Bank CARDs.</p>
+        
+            <label for="application">Application No:</label>
+            <input required type="number" id="application" name="application" required>
+    
+    <br>
+            <label for="type">Application For:</label>
+            <input type="radio" id="type" name="type" value="new">New
+            <input type="radio" id="type" name="type" value="renewal">Renewal
+            <input type="radio" id="type" name="type" value="replacement">Replacement
+    <br>
+    
+            <label for="name">Name</label>
+            <input required type="text" id="name" name="name">
+    <br>
+            <label for="namecard">Name as you would like it on the card (max. 25 Letters (including spaces)):</label>
+            <input required type="text" id="namecard" name="namecard" maxlength="25" required>
+    <br>
+            <label for="address">Address</label>
+            <input required type="text" id="address" name="address">
+    <br>
+            <label for="phone">Phone No:</label>
+            <input required type="number" id="phone" name="phone_no" pattern="{10}">
+    <br>
+            <label for="email">Email:</label>
+            <input required type="email" id="email" name="email">
+    <br>
+    
+            <p>My designated account/s on which I require CARD services</p>
+    
+            <label for="accounttype">Account Type:</label>
+    
+            <select name="account" id="accounttype">
+                <option value="">Select Type</option>
+                <option value="savings">Savings</option>
+                <option value="current">Current</option>
+                <option value="overdraft">Overdraft</option>
+            </select>
+            <br>
+            
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="others">Others
+            <br>
+            
+            
+    
+    
+            <label for="dob">Date of Birth</label>
+            <input required type="date" id="dob" name="dateofbirth">
+    <br>
+    
+    
+            <label for="acno">A/c No:</label>
+            <input required type="number" id="acno" name="acno">
+    
+    <br>
+    
+    
+            <p>TYPE OF ATM CARD APPLIED FOR: (Read Overleaf before selecting Card Type)</p>
+            <table border="2px">
+                <tr>
+                    <th>ATM-cum-Debit Card</th>
+                    <th>Yuva Card</th>
+                    <th>International Debit Card</th>
+                    <th>debit card</th>
+    
+    
+                </tr>
+                <tr>
+                    <td>Gold International Debit Cards</td>
+                    <td>1.VISA</td>
+                    <td>2.MASTERCARD</td>
+                </tr>
+    
+                <tr>
+                    <td>State Bank Card</td>
+                    <td>1.VISA</td>
+                    <td>2.MASTERCARD</td>
+                </tr>
+                <tr>
+                    <td>Platinum International Debit Cards</td>
+                    <td>1.VISA</td>
+                    <td>2.MASTERCARD</td>
+                </tr>   
+    
+    
+    
+                
+            </table>
+            <br>
+            <p>DECLARATION: I am aware of the Terms and Conditions governing the use of the ATM Card and agree to abide bzy them. The bank may call me at my residence / office in connection with my ATM transactions.</p>
+    
+            <label for="place">Place</label>
+            <input required type="text" id="place" name="place">
+    <br>
+            <label for="date">Date</label>
+            <input required type="date" id="date" name="date">
+            <br>
+    
+            <p><Strong>Applicant's Signature</Strong></p>
+            
+            <input type="submit" name="submit" id="submit">
+    
+        </form>
+        
+        </section>
+        
+    </body>
+    </html>
